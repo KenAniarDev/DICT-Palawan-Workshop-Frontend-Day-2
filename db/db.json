@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "imageLink": "https://www.denofgeek.com/wp-content/uploads/2022/04/SPY-x-FAMILY-KV.jpg?resize=768%2C432",
+      "blogTitle": "Spy X Fam New Upload",
+      "blogText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis at lorem quis malesuada. Nullam vel urna sollicitudin, scelerisque quam quis, bibendum urna. In in tellus sollicitudin, auctor tortor vehicula, consequat dolor. Suspendisse potenti. Maecenas tincidunt facilisis lectus vel eleifend. Donec sagittis vel dui quis aliquet. Fusce mattis nec ex ut blandit. Pellentesque sodales rutrum orci a molestie. In commodo lobortis ex, ac eleifend dui egestas porta. Morbi at nisl fermentum, blandit lacus et, vestibulum tellus. Integer commodo libero a commodo condimentum. Nullam viverra varius orci, et vestibulum tellus gravida eu. Ut eget bibendum magna, ac aliquet magna.",
+      "datePosted": "June 19, 2022",
+      "id": "KNJB3HnsmZ9PlXMceT8pE"
+    },
+    {
+      "imageLink": "/spy-x-family.webp",
+      "blogTitle": "Spy X Family ",
+      "blogText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis at lorem quis malesuada. Nullam vel urna sollicitudin, scelerisque quam quis, bibendum urna. In in tellus sollicitudin, auctor tortor vehicula, consequat dolor. Suspendisse potenti. Maecenas tincidunt facilisis lectus vel eleifend. Donec sagittis vel dui quis aliquet. Fusce mattis nec ex ut blandit. Pellentesque sodales rutrum orci a molestie. In commodo lobortis ex, ac eleifend dui egestas porta. Morbi at nisl fermentum, blandit lacus et, vestibulum tellus. Integer commodo libero a commodo condimentum. Nullam viverra varius orci, et vestibulum tellus gravida eu. Ut eget bibendum magna, ac aliquet magna.",
+      "datePosted": "June 19, 2022",
+      "id": "cZoZxGR8A5fSsPNl1jzUN"
+    },
+    {
+      "imageLink": "/spy-x-family.webp",
+      "blogTitle": "Spy X Family Poster",
+      "blogText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis at lorem quis malesuada. Nullam vel urna sollicitudin, scelerisque quam quis, bibendum urna. In in tellus sollicitudin, auctor tortor vehicula, consequat dolor. Suspendisse potenti. Maecenas tincidunt facilisis lectus vel eleifend. Donec sagittis vel dui quis aliquet. Fusce mattis nec ex ut blandit. Pellentesque sodales rutrum orci a molestie. In commodo lobortis ex, ac eleifend dui egestas porta. Morbi at nisl fermentum, blandit lacus et, vestibulum tellus. Integer commodo libero a commodo condimentum. Nullam viverra varius orci, et vestibulum tellus gravida eu. Ut eget bibendum magna, ac aliquet magna.",
+      "datePosted": "June 19, 2022",
+      "id": "RA0DItzXugaIF1DgFFUPJ"
+    }
+  ]
+}

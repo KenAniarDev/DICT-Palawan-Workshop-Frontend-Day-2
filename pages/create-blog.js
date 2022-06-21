@@ -21,7 +21,7 @@ export default function CreateBlog() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const post = await api.post("/api/blog/create-post", { ...formValues });
+      const post = await api.post("/blog/create-post", { ...formValues });
       alert("Blog Post Added");
       router.push("/blogs/" + post.data.data.newPost._id);
     } catch (error) {

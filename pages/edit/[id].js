@@ -14,7 +14,7 @@ export default function SingleBlog() {
   async function fetchData() {
     try {
       const result = await api.get(
-        "/api/blog/get-specific-post/" + router.query.id
+        "/blog/get-specific-post/" + router.query.id
       );
       setFormValues(result.data.data.post);
       if (userData._id !== result.data.data.post.userPosted) {
@@ -30,7 +30,7 @@ export default function SingleBlog() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      await api.patch("/api/blog/update-post/" + formValues._id, {
+      await api.patch("/blog/update-post/" + formValues._id, {
         ...formValues,
       });
       alert("Blog Post Updated");

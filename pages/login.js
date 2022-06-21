@@ -19,7 +19,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const result = await api.post("/api/user/login-user", formValues);
+      const result = await api.post("/user/login-user", formValues);
       console.log(result.data.userData);
       localStorage.setItem("userData", JSON.stringify(result.data.userData));
       setUserData(result.data.userData);

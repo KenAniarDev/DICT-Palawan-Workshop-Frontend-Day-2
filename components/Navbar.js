@@ -27,16 +27,6 @@ export default function Navbar() {
           </Link>
 
           <div>
-            {/* <Link href="/">
-          <a className="mx-3">Home</a>
-        </Link>
-        <Link href="/create-blog">
-          <a className="ml-3">Create Blog</a>
-        </Link> */}
-            {/* <Link href="/logout">
-          <a className="ml-3">Logout</a>
-        </Link> */}
-
             {isLoggedIn ? (
               <button className="ml-3" onClick={logout}>
                 Logout

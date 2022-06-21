@@ -11,7 +11,7 @@ export default function Home() {
   const isLoggedIn = useStore((state) => state.isLoggedIn);
   const fetchData = async () => {
     try {
-      const result = await api.get("/api/blog/get-all-posts");
+      const result = await api.get("/blog/get-all-posts");
       setBlogs(result.data.data.posts);
     } catch (error) {
       console.log(error);

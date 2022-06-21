@@ -14,7 +14,7 @@ export default function SingleBlog() {
   async function fetchData() {
     try {
       const result = await api.get(
-        "/api/blog/get-specific-post/" + router.query.id
+        "/blog/get-specific-post/" + router.query.id
       );
       setBlog(result.data.data.post);
     } catch (error) {
@@ -25,7 +25,7 @@ export default function SingleBlog() {
 
   async function deleteBlog() {
     try {
-      await api.delete("/api/blog/delete-post/" + router.query.id);
+      await api.delete("/blog/delete-post/" + router.query.id);
       alert("Blog Deleted");
       router.push("/");
     } catch (error) {
